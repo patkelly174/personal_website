@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: myFirstFont;
+}
+
+html{
+    background: url(images/swissmt.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a{
+    padding: 2rem;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 1px 3px black; 
+}
+
+.nav {
+    text-align: center;
+    margin-bottom: 20rem;
+}
+.nav a:hover {
+    color: lightgray;
+}
+
+.intro h1{
+    margin: .5rem;
+}
+
+.intro h3 {
+    margin: .5rem;
+    font-family: myFirstFont;
+}
+.intro{
+    font-size: 1.4rem;
+    letter-spacing: 70%;
+    font-family: mySecondFont;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 1px 3px black;
+    margin: 0;
+    padding-bottom: .5rem;
+    
+}
+
+.profile_pic {
+    border-radius: 50%;
+    border: 1.5px solid #F06000;
+    margin-left: 2.7rem;
+    float: left;
+    margin-right: 2.7rem;
+
+}
+
+.about_paragraph {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    margin-right: 2.7rem;
+    padding-top: 1rem;
+    padding-bottom: 7.5rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    
+}
+
+.quick_links {
+    word-spacing: 1rem;
+    text-align: center;
+    padding-bottom: 75%;
+    
+}
+
+.about_text {
+    text-align: center;
+    font-size: 3em;
+    color: #F06000;
+    font-family: mySecondFont
+}
+
+.flex_box {
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+.page_2 {
+    max-width: 900px;
+    margin: auto;
+}
+
+.about_container {
+    margin: 0;
+    padding: 5%;
+    background: #0f0f0f;
+}
+
+.skills_container {
+    font-size: 1.5rem;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    color: grey;
+}
+
+.skills_container h5 {
+    padding-top: .5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.quick_info {
+    font-size: 1.5rem;
+    color: lightgray;
+    width: 50%;
+    padding-right: 3rem;
+    margin: 0;
+    display: inline-block;
+}
+
+
+.skills_container ul {
+    list-style-type: "--> ";
+    line-height: 3rem;
+    color: gray;
+    margin-top: 1rem;
+
+}
+
+.skills_container li span {
+    color: lightgray;
+}
+
+.quick_info li {
+    list-style-type: none;
+}
+
+.quick_info ul strong {
+    line-height: 2rem;
+    color: grey;
+}
+
+.quick_info ul li {
+    padding-bottom: 2.5rem;
+}
+
+.quick_info span {
+    display: block;
+}
+
+.about_titles {
+    font-size: 2.5rem;
+    font-family: mySecondFont;
+    color: #F06000;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.buttons a {
+    background: gray;
+    text-decoration: none;
+    color: white;
+    font-family: myFirstFont;
+    font-size: 1.5rem;
+    padding: 14px 38px;
+    border-radius: 3px;
+
+    
+}
+
+.resume {
+    margin-right: 6rem;
+}
+
+.buttons a:hover {
+    background: darkgrey;
+}
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/josefin-sans/JosefinSans-Regular.ttf) ;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: mySecondFont;
+    src: url(fonts/josefin-sans/JosefinSans-Bold.ttf);
+    font-weight: bold;
+  }
